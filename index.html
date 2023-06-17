@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>備忘錄練習</title>
+</head>
+
+<body>
+    <div class="memo">
+        <h1 class="memo-title mb-20">備忘錄</h1>
+        <p class="mb-20">記事</p>
+        <input type="text" name="content" id="content" class="mb-20" placeholder="請輸入您要記事的內容">
+        <p class="mb-20">日期</p>
+        <input type="date" name="date" id="date" class="mb-20" placeholder="請選擇日期">
+        <p class="mb-20">時間</p>
+        <input type="time" name="time" id="time" class="mb-20">
+        <div class="button-area">
+            <button type="button" class="add mb-20" id="add-btn">新增</button>
+        </div>
+        <div class="button-area">
+            <button type="button" class="remove mb-20" id="remove-btn">刪除最後一個</button>
+        </div>
+        <div id="list" class="render-content">
+            <p class="list-date mb-20">日期 : </p>
+            <p class="list-time mb-20">時間 : </p>
+            <p class="list-content mb-20">內容 : </p>
+        </div>
+
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

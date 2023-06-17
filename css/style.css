@@ -1,0 +1,60 @@
+/* Global css */
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+
+/* index css */
+.memo {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid pink;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.memo-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.memo p {
+    font-size: 18px;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.button-area button {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: #ffa;
+    border-radius: 8px;
+}
+
+.button-area button:hover {
+    background-color: #525252;
+    color: #fff;
+}
+
+/* .render-content{
+    border-bottom: 3px solid #929292;
+} */
+
+.render-content p {
+    margin-top: 20px;
+}
+
+.render-content p:last-child {
+    padding-bottom: 10px;
+}
